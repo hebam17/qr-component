@@ -1,0 +1,15 @@
+{
+  "name": "or-code",
+  "version": "1.0.0",
+  "description": "This is an or code component challenge from frontend mentor",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "frontend-mentor"
+  },
+  "author": "heba",
+  "license": "ISC"
+}
