@@ -55,6 +55,21 @@ img {
   color: var(--gray-blue);
 }
 
+/* screens between 900px and 500px */
+@media screen and (max-width: 900px) and (min-width: 500px) {
+  #outro {
+    width: 40vw;
+  }
+}
+
+/* screens between 500px and px 375*/
+
+@media screen and (max-width: 500px) and (min-width: 375px) {
+  #outro {
+    width: 60vw;
+  }
+}
+
 /* the mobile design part */
 @media only screen and (max-width: 375px) {
   #outro {
