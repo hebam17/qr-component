@@ -23,8 +23,8 @@ body {
 
 /* the whole component */
 
-#outro {
-  width: 21vw;
+#container {
+  width: 22vw;
   background: var(--white);
   border-radius: calc(var(--radius) * 2);
 }
@@ -43,7 +43,8 @@ img {
   text-align: center;
 }
 
-#text h3 {
+#text h1 {
+  font-size: 1.3rem;
   font-weight: var(--weight2);
   text-align: center;
   color: var(--dark-blue);
@@ -57,7 +58,7 @@ img {
 
 /* screens between 900px and 500px */
 @media screen and (max-width: 900px) and (min-width: 500px) {
-  #outro {
+  #container {
     width: 40vw;
   }
 }
@@ -65,14 +66,14 @@ img {
 /* screens between 500px and px 375*/
 
 @media screen and (max-width: 500px) and (min-width: 375px) {
-  #outro {
+  #container {
     width: 60vw;
   }
 }
 
 /* the mobile design part */
 @media only screen and (max-width: 375px) {
-  #outro {
+  #container {
     width: 90vw;
     margin: auto;
   }
