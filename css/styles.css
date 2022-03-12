@@ -24,7 +24,7 @@ body {
 /* the whole component */
 
 #container {
-  width: 22vw;
+  width: 21vw;
   background: var(--white);
   border-radius: calc(var(--radius) * 2);
 }
@@ -44,7 +44,7 @@ img {
 }
 
 #text h1 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: var(--weight2);
   text-align: center;
   color: var(--dark-blue);
